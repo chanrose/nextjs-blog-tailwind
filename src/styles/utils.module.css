@@ -1,0 +1,21 @@
+.postFormat {}
+
+.postFormat ul {
+    list-style: disc;
+    list-style-position: outside;
+    margin-left: 2rem;
+}
+
+.postFormat p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.postFormat a {
+    --tw-text-opacity: 1;
+    color: rgba(3, 105, 161, var(--tw-text-opacity));
+}
+
+.postFormat a:hover {
+    text-decoration: underline;
+}
