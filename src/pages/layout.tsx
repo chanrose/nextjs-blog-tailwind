@@ -14,9 +14,11 @@ const toggleDarkModeHandler = () => {
 export const Layout = ({
   children,
   home,
+  portfolio,
 }: {
   children: React.ReactNode;
   home?: boolean;
+  portfolio?: boolean;
 }) => {
   return (
     <div>
@@ -93,7 +95,14 @@ export const Layout = ({
         {!home && (
           <div className="my-9">
             <Link href="/my-portfolio">
-              <a className="text-blue-700 hover:underline">← Go back</a>
+              <a className="text-blue-700 hover:underline">← Go Back</a>
+            </Link>
+          </div>
+        )}
+        {portfolio && (
+          <div className="my-9">
+            <Link href="/">
+              <a className="text-blue-700 hover:underline">← Go Home</a>
             </Link>
           </div>
         )}

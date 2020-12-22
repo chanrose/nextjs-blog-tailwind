@@ -24,7 +24,7 @@ export default function MyPortfolio({
   );
   return (
     <>
-      <Layout>
+      <Layout home portfolio>
         <Head>
           <title>Chanrose's Portfolio Category</title>
         </Head>
