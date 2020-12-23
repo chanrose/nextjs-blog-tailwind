@@ -1,8 +1,10 @@
-Updated in Dec 22, 2020
+## Updated in Dec 23, 2020
 
 - Upgrade Project into Tailwind css
 - Reformat the css style to Tailwind css
 - Added category meta data within post
+- Added new page for dairy or blog
+- Update post link
 
 ## Getting Started
 
