@@ -4,6 +4,8 @@ import Head from "next/head";
 import Date from "../../../components/date";
 import { GetStaticProps, GetStaticPaths } from "next";
 import utilStyles from "../../styles/utils.module.css";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export default function Post({
   postData,
@@ -15,6 +17,19 @@ export default function Post({
     contentHtml: string;
   };
 }) {
+  const [isBlog, setIsBlog] = useState(false);
+
+  const [isPortfolio, setIsPortfolio] = useState(false);
+
+  useEffect(() => {
+    if (postData.category === "blog") {
+      setIsBlog(true);
+    }
+    if (postData.category === "professional") {
+      setIsPortfolio(true);
+    }
+  }, [postData]);
+
   return (
     <Layout>
       <Head>
@@ -36,6 +51,20 @@ export default function Post({
           dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
         />
       </article>
+      {isBlog && (
+        <div className="my-9">
+          <Link href="/my-blog">
+            <a className="text-blue-700 hover:underline">← Go Back</a>
+          </Link>
+        </div>
+      )}
+      {isPortfolio && (
+        <div className="my-9">
+          <Link href="/my-portfolio">
+            <a className="text-blue-700 hover:underline">← Go Back</a>
+          </Link>
+        </div>
+      )}
     </Layout>
   );
 }
