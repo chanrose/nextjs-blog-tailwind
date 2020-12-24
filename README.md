@@ -3,7 +3,6 @@
 
 
 ## Updated in Dec 23, 2020
-
 - Upgrade Project into Tailwind css
 - Reformat the css style to Tailwind css
 - Added category meta data within post
@@ -11,7 +10,6 @@
 - Update post link
 
 ## Getting Started
-
 First, run the development server:
 
 ```bash
@@ -23,3 +21,4 @@ yarn dev
 - [Vercel](https://vercel.com) for deployment
 - [TailWindCSS](https://tailwindcss.com/) for the css framework
 - [Agcty](https://github.com/agcty/nextjs-advanced-starter) for the starter repository
+- Azenics for fixing one of the code issue

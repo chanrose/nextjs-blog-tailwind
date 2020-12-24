@@ -19,3 +19,5 @@ My Tracker is for users to track their own productivity with time recording func
 - Firebase: for authentication and database usage.
 - Visual Studio Code: IDE for editing
 - Vercel: For Hosting
+
+Want to check current progress? [My-Tracker](https://my-tracker.vercel.app)
