@@ -2,12 +2,9 @@
 [Open here](https://chanrose.vercel.app)
 
 
-## Updated in Dec 23, 2020
-- Upgrade Project into Tailwind css
-- Reformat the css style to Tailwind css
-- Added category meta data within post
-- Added new page for dairy or blog
-- Update post link
+## Updated in Dec 29, 2020
+- Modify my-tracker post
+- Add on-tracker post
 
 ## Getting Started
 First, run the development server:

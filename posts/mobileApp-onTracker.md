@@ -20,3 +20,6 @@ On-Tracker is an improved version of my-tracker with cloud storage capability. U
 - Firebase: for authentication and database usage.
 - Visual Studio Code: IDE for editing
 - Vercel: For Hosting
+
+Want to check current progress? [On-Tracker](https://on-tracker.vercel.app)
+Want to check the alternative version instead? [My-Tracker](https://my-tracker.vercel.app)
