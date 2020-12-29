@@ -5,7 +5,7 @@ category: "professional"
 completed: false
 ---
 
-My Tracker is for users to track their own productivity with time recording function in which allows users to keep track with detail how their time is spent with certain tasks. **feature lists**:
+My Tracker is an mobile app for users to track their own productivity with time recording function in which allows users to keep track with detail how their time is spent with certain tasks. **feature lists**:
 - Ability to create category
 - Start | Stop time 
 - With works detail during the recording
@@ -19,3 +19,5 @@ My Tracker is for users to track their own productivity with time recording func
 - Ionic: the component framework
 - Visual Studio Code: IDE for editing
 - Vercel: For Hosting
+
+Want to check current progress? [My-Tracker](https://my-tracker.vercel.app)
