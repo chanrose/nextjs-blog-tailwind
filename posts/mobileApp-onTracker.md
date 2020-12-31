@@ -5,7 +5,7 @@ category: "professional"
 completed: false
 ---
 
-On-Tracker is an improved version of my-tracker with cloud storage capability. User can sign up and login with any web browsing devices. THis is for users to track their own productivity with time recording function in which allows users to keep track with detail how their time is spent with certain tasks. **feature lists**:
+On-Tracker is an improved version of my-tracker with cloud storage capability. Users can sign up and login with any web browsing devices and track their own productivity with time recording function in which allows users to keep track with detail how their time is spent with certain tasks. **feature lists**:
 - Ability to create category
 - Start | Stop
 - With works detail during the recording
@@ -21,5 +21,4 @@ On-Tracker is an improved version of my-tracker with cloud storage capability. U
 - Visual Studio Code: IDE for editing
 - Vercel: For Hosting
 
-Want to check current progress? [On-Tracker](https://on-tracker.vercel.app)
-Want to check the alternative version instead? [My-Tracker](https://my-tracker.vercel.app)
+Want to check current progress? [On-Tracker](https://on-tracker.vercel.app). Want to check the local storage version instead? [My-Tracker (offline)](https://lo-tracker.vercel.app)

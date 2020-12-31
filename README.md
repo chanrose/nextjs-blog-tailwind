@@ -2,9 +2,10 @@
 [Open here](https://chanrose.vercel.app)
 
 
-## Updated in Dec 29, 2020
+## Updated in Dec 30, 2020
 - Modify my-tracker post
 - Add on-tracker post
+- Modify OnTracker and MyTracker page
 
 ## Getting Started
 First, run the development server:
