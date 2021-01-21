@@ -1,5 +1,5 @@
 ---
-title: "On-Tracker"
+title: "On Tracker"
 # date: "2020-12-16"
 category: "professional"
 completed: false
@@ -21,4 +21,4 @@ On-Tracker is an improved version of my-tracker with cloud storage capability. U
 - Visual Studio Code: IDE for editing
 - Vercel: For Hosting
 
-Want to check current progress? [On-Tracker](https://on-tracker.vercel.app). Want to check the local storage version instead? [My-Tracker (offline)](https://lo-tracker.vercel.app)
+Want to check current progress? [On-Tracker](https://on-tracker.vercel.app). 

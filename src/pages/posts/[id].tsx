@@ -60,7 +60,7 @@ export default function Post({
       )}
       {isPortfolio && (
         <div className="my-9">
-          <Link href="/my-project">
+          <Link href="/my-projects">
             <a className="text-blue-700 hover:underline">← Go Back</a>
           </Link>
         </div>

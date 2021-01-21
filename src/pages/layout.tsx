@@ -113,7 +113,7 @@ export const Layout = ({
               Vercel
             </a>
             <br />
-            Updated in December 22, 2020
+            Updated in January 21, 2021
           </p>
         </footer>
       </div>

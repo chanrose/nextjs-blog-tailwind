@@ -26,7 +26,7 @@ export default function MyPortfolio({
     <>
       <Layout home portfolio>
         <Head>
-          <title>Chanrose's Portfolio Category</title>
+          <title>Chanbroset | Projects</title>
         </Head>
         <div className="container flex-col content-center px-4 mx-auto">
           <section className="my-8">

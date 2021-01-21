@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Layout home>
       <Head>
-        <title>My Portfolio</title>
+        <title>Chanbroset | About me</title>
       </Head>
       <div className="container flex-col content-center px-4 mx-auto">
         <section>
@@ -23,8 +23,16 @@ export default function Home() {
           </p>
           <br />
           <p>
-            You can view some of my projects that I am working on right now{" "}
-            <Link href={`/my-project`}>
+            Right now, I am working on{" "}
+            <a
+              className="text-blue-700 hover:underline"
+              href="https://on-tracker.vercel.app/"
+            >
+              On-Tracker
+            </a>
+            , cross-platform application, that let users keeping track of their
+            time. Check some of my other projects{" "}
+            <Link href={`/my-projects`}>
               <a className="text-blue-700 hover:underline">here</a>
             </Link>
           </p>
@@ -35,9 +43,12 @@ export default function Home() {
             Personal interest
           </h2>
           <ul className="list-disc list-inside">
+            <li>Artificial Intelligence</li>
             <li>Blockchain</li>
+            <li>Linux</li>
             <li>Programming</li>
             <li>Web & App Development</li>
+            <li>Open Source</li>
             <li>Playing Online Game</li>
           </ul>
         </section>

@@ -1,8 +1,7 @@
 ---
-title: "My Tracker"
+title: "Lo Tracker"
 # date: "2020-12-16"
-category: "professional"
-completed: false
+category: 
 ---
 
 My Tracker (offline) is an mobile app for users to track their own productivity with time recording function in which allows users to keep track with detail how their time is spent with certain tasks. **feature lists**:

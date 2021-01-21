@@ -1,8 +1,7 @@
 ---
 title: "My Portfolio"
 # date: "2020-12-16"
-category: "professional"
-completed: false
+category: 
 ---
 
 The site that you are viewing is the current veresion of my portfolio project. Here is a list of **techs** that I am learning and using:
