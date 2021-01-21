@@ -12,26 +12,19 @@ export default function Home() {
       <div className="container flex-col content-center px-4 mx-auto">
         <section>
           <h2 className="my-8 font-sans text-3xl font-extrabold">
-            Introduction
+            My background
           </h2>
           <p>
             {" "}
-            Hello there, I'm Broset from Cambodia. I am doing my bachelor of
-            Science in Information Technology at{" "}
-            <a
-              className="text-blue-700 hover:underline"
-              href="https://www.apiu.edu"
-            >
-              AIU
-            </a>
-            . As a student developer, I like to find solution for a variety of
-            challenges that range from organization to my personal challenge
-            through coding.
+            My name is Broset, I am majoring in Information Technology at AIU. I
+            am a student developer, I enjoy learning and using my knowledge to
+            improve my productivity. I want to contribute to the society through
+            my programming knowledge.
           </p>
           <br />
           <p>
-            You can view some of my recent projects{" "}
-            <Link href={`/my-portfolio`}>
+            You can view some of my projects that I am working on right now{" "}
+            <Link href={`/my-project`}>
               <a className="text-blue-700 hover:underline">here</a>
             </Link>
           </p>

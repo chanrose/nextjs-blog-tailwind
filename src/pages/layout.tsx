@@ -92,13 +92,7 @@ export const Layout = ({
       </header>
       <div className="container flex-col content-center px-4 mx-auto my-8">
         <main className="">{children}</main>
-        {/* {!home && (
-          <div className="my-9">
-            <Link href="/my-portfolio">
-              <a className="text-blue-700 hover:underline">← Go Back</a>
-            </Link>
-          </div>
-        )} */}
+
         {portfolio && (
           <div className="my-9">
             <Link href="/">
